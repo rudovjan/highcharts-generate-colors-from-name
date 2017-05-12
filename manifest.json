@@ -1,0 +1,38 @@
+{
+  "name": "Generate Series Color From Series Name",
+  "version": "1.1",
+  "title": "Generate Series Color From Series Name",
+  "author": {
+    "name": "Jan Rudovsky",
+    "url": "http://rudovsky.blogspot.cz/"
+  },
+  "licenses": [
+    {
+      "type": "GPL v2",
+      "url": "https://github.com/rudovjan/highcharts-tooltip-delay/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "Highcharts": ">=3.0.0"
+  },
+  "description": "Generate Series Color From Series Name",
+  "keywords": [
+    "series",
+    "color"
+  ],
+  "homepage": "https://rudovjan.github.io/highcharts-generate-colors-from-name/",
+  "docs": "https://github.com/rudovjan/highcharts-generate-colors-from-name",
+  "bugs": "https://github.com/rudovjan/highcharts-generate-colors-from-name/issues",
+  "download": "https://github.com/rudovjan/highcharts-generate-colors-from-name",
+  "demo": [
+    "https://rudovjan.github.io/highcharts-generate-colors-from-name",
+    "http://jsfiddle.net/rudovsky/3r5nL6mv"
+  ],
+  "maintainers": [
+    {
+      "name": "Jan Rudovsky",
+      "email": "rudovsky@gmail.com",
+      "url": ""
+    }
+  ]
+}
