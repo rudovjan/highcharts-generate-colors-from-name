@@ -5,8 +5,8 @@
   "main": "dist/index.dist.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel index.js -o dist/index.dist.js"
-    "prepublish": "babel index.js -o dist/index.dist.js"
+    "build": "babel index.js -o dist/index.dist.js",
+    "prepublish": "babel ./src/index.js -o ./dist/index.dist.js"
   },
   "author": "Jan Rudovsky",
   "license": "ISC",
