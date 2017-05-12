@@ -2,7 +2,7 @@
   "name": "highcharts-generate-colors-from-name",
   "version": "1.0.0",
   "description": "Generate colors for series from series name, so you can have consistent colors across application",
-  "main": "dist/index.dist.js",
+  "main": "docs/dist/index.dist.js",
   "scripts": {
     "test": "jest",
     "develop": "./node_modules/.bin/webpack-dev-server",

@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
   entry: './src/index.js',
   devtool: 'source-map',
-  output: { path: __dirname, filename: 'dist/index.dist.js' },
+  output: { path: __dirname, filename: 'docs/dist/index.dist.js' },
   module: {
     loaders: [
       {
