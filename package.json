@@ -9,6 +9,10 @@
     "prepublish": "./node_modules/.bin/webpack -p"
   },
   "author": "Jan Rudovsky",
+  "bugs": {
+    "url": "https://github.com/rudovjan/highcharts-generate-colors-from-name/issues"
+  },
+  "homepage": "https://github.com/rudovjan/highcharts-generate-colors-from-name",
   "license": "ISC",
   "jest": {
     "transform": {
