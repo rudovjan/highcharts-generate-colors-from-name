@@ -1,0 +1,19 @@
+{
+  "name": "highcharts-generate-colors-from-name",
+  "version": "1.0.0",
+  "description": "Generate colors for series from series name, so you can have consistent colors across application",
+  "main": "dist/index.dist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -o dist/index.dist.js"
+    "prepublish": "babel index.js -o dist/index.dist.js"
+  },
+  "author": "Jan Rudovsky",
+  "license": "ISC",
+    "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
