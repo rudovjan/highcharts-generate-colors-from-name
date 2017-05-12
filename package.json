@@ -4,16 +4,26 @@
   "description": "Generate colors for series from series name, so you can have consistent colors across application",
   "main": "dist/index.dist.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel index.js -o dist/index.dist.js",
-    "prepublish": "babel ./src/index.js -o ./dist/index.dist.js"
+    "test": "jest",
+    "develop": "./node_modules/.bin/webpack-dev-server",
+    "prepublish": "./node_modules/.bin/webpack -p"
   },
   "author": "Jan Rudovsky",
   "license": "ISC",
-    "devDependencies": {
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
+    "babel-jest": "^20.0.1",
+    "babel-loader": "^7.0.0",
     "babel-preset-latest": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^20.0.1",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
   }
 }

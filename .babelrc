@@ -1,0 +1,6 @@
+// because of JEST
+{
+  "presets": [
+    ["es2015", "stage-o"]
+  ]
+}
