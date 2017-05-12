@@ -1,14 +1,28 @@
 const series = [];
 
-for(let i = 0; i < 20; i++) {
+for(let i = 0; i < 40; i++) {
   series[i] = {
     name: 'Series ' + i,
     data: [3],
-    generateColor: {
+    generateColors: {
       enabled: true
     }
   }
 }
+
+series.push({
+  name: 'Series 4',
+  data: [4],
+  generateColors: {
+    enabled: true
+  }
+}, {
+  name: 'Series 10',
+  data: [4],
+  generateColors: {
+    enabled: true
+  }
+});
 
 $(() => (
   Highcharts.chart('chart', {
