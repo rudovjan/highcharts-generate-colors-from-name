@@ -1,3 +1,12 @@
+const series = [];
+
+for(let i = 0; i < 20; i++) {
+  series[i] = {
+    name: 'Series ' + i,
+    data: [3]
+  }
+}
+
 $(() => (
   Highcharts.chart('chart', {
     chart: {
@@ -7,20 +16,11 @@ $(() => (
       text: 'Column chart with negative values'
     },
     xAxis: {
-      categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
+      categories: ['Apples']
     },
     credits: {
       enabled: false
     },
-    series: [{
-      name: 'John',
-      data: [5, 3, 4, 7, 2]
-    }, {
-      name: 'Jane',
-      data: [2, -2, -3, 2, 1]
-    }, {
-      name: 'Joe',
-      data: [3, 4, 4, -2, 5]
-    }]
+    series
   })
 ));

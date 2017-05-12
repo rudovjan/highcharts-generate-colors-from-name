@@ -1,8 +1,12 @@
 import { generateColorForString } from './color.js'
 
 (function(H) {
-  // H.wrap(H.Color.prototype, 'init', function(proceed) {
-    generateColorForString('Jan');
-  // });
-  return H;
+  H.wrap(H.Series.prototype, 'getColor', function (proceed) {
+
+    console.log(this.name);
+    const color = generateColorForString(this.name);
+    console.log(color);
+
+    this.color = color;
+  });
 }(Highcharts));

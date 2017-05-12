@@ -1,8 +1,8 @@
 import { generateColorForString } from './color.js';
 
-test('color match', () => {
-  const string = 'jan';
-  const generatedColor = generateColorForString(string);
+test('Color for two strings not match', () => {
+  const firstGeneratedColor = generateColorForString('aa');
+  const secondGeneratedColor = generateColorForString('a');
 
-  expect(generatedColor).toBe(string);
+  expect(firstGeneratedColor).not.toBe(secondGeneratedColor);
 });
